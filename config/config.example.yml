@@ -1,4 +1,4 @@
-telegram_token: ""
-openai_api_key: ""
+telegram_token: "${{ secrets.DO_USERNAME }}"
+openai_api_key: "${{ secrets.DO_PASS }}"
 allowed_telegram_usernames: []  # if empty, the bot is available to anyone
 new_dialog_timeout: 600  # new dialog starts after timeout (in seconds)
